@@ -1,0 +1,35 @@
+html, body , #app {
+  height: 100%;
+}
+
+body{
+  overflow: hidden;
+}
+
+.label{
+  height:  20%;
+}
+
+.label > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.label-text{
+  text-align: center;
+}
+
+.buttonrow{
+  height: 80%;
+}
+
+.button-ok{
+  left: 35%;
+  position: fixed;
+}
+
+#splineview{
+  position: absolute;
+  z-index: -2;
+}
